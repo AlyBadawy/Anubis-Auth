@@ -33,3 +33,7 @@
 
 .DS_Store
 .byebug_history
+
+
+/coverage
+!/coverage/.keep
