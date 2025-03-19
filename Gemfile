@@ -15,6 +15,8 @@ gem "thruster", require: false # Add HTTP asset caching/compression and X-Sendfi
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 group :development do
+  gem "fasterer"
+  gem "overcommit"
   gem "rubocop"
   gem "rubocop-config-prettier"
   gem "rubocop-performance"
